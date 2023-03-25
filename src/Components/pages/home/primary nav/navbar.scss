@@ -66,9 +66,10 @@
 }
 @media only screen and (max-width: 600px) {
   .navbar {
+    margin-left: 5px;
     margin-top: -3px;
     position: fixed;
-    width: 500px;
+    width: 490px;
     display: flex;
     justify-content: center;
     background-color: #1e0044;
