@@ -5,10 +5,11 @@ import Header from './header/Header'
 
 function Home() {
   return (
-    <div className='wrapper' >
+    <div className="wrapper">
       <Header />
+      <Header />  
     </div>
-  )
+  );
 }
 
 export default Home
