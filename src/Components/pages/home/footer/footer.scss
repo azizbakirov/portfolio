@@ -1,0 +1,39 @@
+.footer {
+  margin-top: 40px;
+  background-color: #1e0044;
+  border-radius: 10px;
+  padding: 25px;
+  font-family: "Montserrat", sans-serif;
+
+  .title-links {
+    display: flex;
+    justify-content: space-between;
+
+    .links {
+      display: flex;
+      gap: 20px;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .coprghyt {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+
+    h1 {
+        width: 60%;
+      font-size: 80px;
+      font-weight: 400;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
