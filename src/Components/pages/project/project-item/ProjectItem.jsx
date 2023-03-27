@@ -2,33 +2,33 @@ import React from 'react'
 import "./projectItem.scss";
 
 
-const ProjectItem = ({date}) => {
+const ProjectItem = (props) => {
 
 
-  const APIKEY = ''
 
 
   return (
     <div>
-      <div className="card">
+      <div className={props.dark ? "card" : "dark-card"}>
         <div className="titles">
-          <span>{date.info}</span>
-          <h3>{date.title}</h3>
+          <span>{props.info}</span>
+          <h3>{props.title}</h3>
           <div className="btn">
-            <a href={date.btnNameLink}>{date.btnName}</a>
-            <a href={date.btnNameLink2}>{date.btnName2}</a>
+            <p>{props.btnName}</p>
+            <p>{props.btnName2}</p>
           </div>
-          <p>
-           {date.desc}
-          </p>
+          <p>{props.desc}</p>
           <div className="lets-btn">
-            <a className="lets" href={date.siteLink}>
-              View Site 
+            <a className="lets" target="_blank" href={props.siteLink}>
+              View Site
+            </a>
+            <a className="lets" target="_blank" href={props.siteLink}>
+              Source Code
             </a>
           </div>
         </div>
         <div className="img">
-          <img src={date.img} alt="" />
+          <img src={props.img} alt="" />
         </div>
       </div>
     </div>

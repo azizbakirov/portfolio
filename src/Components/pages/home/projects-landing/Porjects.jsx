@@ -6,40 +6,44 @@ import ProjectItem from "../../project/project-item/ProjectItem";
 // import Design from "./img/1.jpg"
 
 function Porjects() {
-  const date = [
-    {
-      info: "Web design",
-      title: "Kobra",
-      btnNameLink: "google.com",
-      btnName: "google.com",
-      btnNameLink2: "google.com",
-      btnName2: "google.uz",
-      desc: "Lorem ipsum dolor sit amet",
-      siteLink: "http://youtube.com",
-      img: `${Design}`,
-    },
-    {
-      info: "Web design",
-      title: "Kobra",
-      btnNameLink: "google.com",
-      btnName: "google.com",
-      btnNameLink2: "google.com",
-      btnName2: "google.uz",
-      desc: "Lorem ipsum dolor sit amet",
-      siteLink: "http://youtube.com",
-      img: `${Design}`,
-    },
-  ];
-
-  
   return (
     <div className="cards">
-    {date.map((item) =>{
-      return (
-
-    <ProjectItem date={item} />
-      )
-    })}
+      <ProjectItem
+        dark={true}
+        info="Web design"
+        title="Kobra"
+        btnNameLink="google.com"
+        btnName="google.com"
+        btnNameLink2="google.com"
+        btnName2="google.uz"
+        desc="Lorem ipsum dolor sit amet"
+        siteLink="http://youtube.com"
+        img={Design}
+      />
+      <ProjectItem
+        dark={false}
+        info="Web design"
+        title="Kobra"
+        btnNameLink="google.com"
+        btnName="google.com"
+        btnNameLink2="google.com"
+        btnName2="google.uz"
+        desc="Lorem ipsum dolor sit amet"
+        siteLink="http://youtube.com"
+        img={Design}
+      />
+      <ProjectItem
+        dark={true}
+        info="Web design"
+        title="Kobra"
+        btnNameLink="google.com"
+        btnName="google.com"
+        btnNameLink2="google.com"
+        btnName2="google.uz"
+        desc="Lorem ipsum dolor sit amet"
+        siteLink="http://youtube.com"
+        img={Design}
+      />
     </div>
   );
 }
