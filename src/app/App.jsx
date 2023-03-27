@@ -8,6 +8,11 @@ import Navbar from '../Components/pages/home/primary nav/Navbar'
 
 
 function App() {
+
+  
+
+
+
   return (
     <div className="container">
       <BrowserRouter>
