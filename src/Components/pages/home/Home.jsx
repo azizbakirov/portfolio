@@ -5,6 +5,7 @@ import Header from './header/Header'
 import Main from './main/Main';
 import Porjects from './projects-landing/Porjects';
 import Footer from './footer/Footer';
+import TopBtn from '../../topBtn/TopBtn';
 
 function Home() {
   return (

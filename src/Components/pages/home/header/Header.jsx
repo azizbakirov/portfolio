@@ -3,8 +3,8 @@ import "./header.scss";
 
 const Header = () => {
   return (
-    <header className="wrapper">
-      <div className="title-info">
+    <header className="wrapper ">
+      <div className="title-info animate__animated animate__fadeIn">
         <span className="title">
           I create <span>beautifuls</span> experiences
         </span>

@@ -1,0 +1,20 @@
+.top {
+  position: fixed;
+  display: flex;
+  top: 80%;
+  left: 45.6%;
+  button {
+    // margin: 72vh 93.3vh;
+    cursor: pointer;
+    padding: 15px 50px;
+    border-radius: 15px;
+    // background-color: ;
+    border: 2px solid #8338ec;
+    background-color: #642ab66b;
+    backdrop-filter: blur(6px);
+
+    i {
+      //   color: #8338ec;
+    }
+  }
+}

@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 import "./projectItem.scss";
 
-
 const ProjectItem = (props) => {
-
-
-
-
   return (
     <div>
       <div className={props.dark ? "card" : "dark-card"}>
@@ -35,4 +30,4 @@ const ProjectItem = (props) => {
   );
 };
 
-export default ProjectItem
+export default ProjectItem;

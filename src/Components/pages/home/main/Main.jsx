@@ -1,5 +1,5 @@
-import React from 'react'
-import "./main.scss"
+import React from "react";
+import "./main.scss";
 
 function Main() {
   return (
@@ -48,4 +48,4 @@ function Main() {
   );
 }
 
-export default Main
+export default Main;
