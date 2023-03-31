@@ -68,8 +68,8 @@
 @media screen and (max-width: 600px) {
   .navbar {
     width: auto;
-    top: 530px;
-    padding: 22px 32px;
+    top: 50%;
+    padding: 10%;
     .logo {
       display: none;
       img {
@@ -80,18 +80,11 @@
       margin-left: 0px;
       margin-top: 0px;
       display: flex;
-      gap: 30px;
+      gap: 25px;
       font-family: "Montserrat", sans-serif;
-      font-size: 15px;
+      font-size: 10px;
       font-weight: 300;
       .active {
-        transition: all 0.3s;
-        // color: #8338ec;
-        filter: grayscale(3px);
-        -webkit-filter: grayscale(100%) brightness(30%) sepia(100%)
-          hue-rotate(-180deg) saturate(700%) contrast(0.8);
-        filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg)
-          saturate(700%) contrast(0.8);
       }
       .link {
         text-decoration: none;
