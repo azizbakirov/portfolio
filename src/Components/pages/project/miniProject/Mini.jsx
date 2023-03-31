@@ -1,11 +1,14 @@
-import React from 'react'
-import "./mini.scss"
-
+import React from "react";
+import "./mini.scss";
 
 function Mini() {
   return (
-    <div>Mini</div>
-  )
+    <div>
+      <div className="text-project">
+        <h1>Mini Project</h1>
+      </div>
+    </div>
+  );
 }
 
-export default Mini
+export default Mini;

@@ -4,8 +4,12 @@ import "./react.scss"
 
 function ReactJs() {
   return (
-    <div>ReactJs</div>
-  )
+    <div>
+      <div className="text-project">
+        <h1>React JS</h1>
+      </div>
+    </div>
+  );
 }
 
 export default ReactJs

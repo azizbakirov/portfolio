@@ -13,7 +13,6 @@ const Header = () => {
           experiences
         </p>
         <p className="para"> Available for freelance work</p>
-        <h1>new os</h1>
       </div>
     </header>
   );
