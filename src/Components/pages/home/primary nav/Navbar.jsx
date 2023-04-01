@@ -20,14 +20,22 @@ function Navbar() {
       </div>
       <nav className="nav">
         <NavLink className="link home" to="/" onClick={scroolUp}>
-          HOME <img src={Arrow} alt="" />
+          <span>HOME</span> <img src={Arrow} alt="" />
+          <i className="fa-solid fa-house"></i>
         </NavLink>
         <NavLink className="link abouts" to="/about" onClick={scroolUp}>
-          ABOUT <img src={Arrow} alt="" />
+          <span>ABOUT</span> <img src={Arrow} alt="" />
+          <i class="fa-solid fa-address-card"></i>
         </NavLink>
-        <NavLink className="link projects" to="/project/design" onClick={scroolUp}>
-          PROJECTS <img src={Arrow} alt="" />
+        <NavLink
+          className="link projects"
+          to="/project/design"
+          onClick={scroolUp}
+        >
+          <span>PROJECTS</span> <img src={Arrow} alt="" />
+          <i class="fa-solid fa-briefcase"></i>
         </NavLink>
+          <i onClick={scroolUp} class="fa-solid fa-arrow-up"></i>
       </nav>
       <Outlet />
       <div className="lets">

@@ -43,6 +43,12 @@
         // width: 10px;
         background-size: cover;
       }
+      .fa-solid {
+        display: none;
+      }
+    }
+    .fa-solid{
+      display: none;
     }
   }
   .lets {
@@ -67,9 +73,17 @@
 }
 @media screen and (max-width: 600px) {
   .navbar {
-    width: auto;
-    top: 50%;
-    padding: 10%;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    top: auto;
+    height: 80px;
+    padding: 25px;
+    border-radius: 10px 10px 0 0;
+    display: block;
+    backdrop-filter: blur(7px);
+  background-color: #1e0044d5;
+
     .logo {
       display: none;
       img {
@@ -78,22 +92,38 @@
     }
     .nav {
       margin-left: 0px;
+      padding: 0 15px;
       margin-top: 0px;
-      display: flex;
-      gap: 25px;
-      font-family: "Montserrat", sans-serif;
-      font-size: 10px;
-      font-weight: 300;
+
+      justify-content: space-between;
+      gap: 0px;
+
       .active {
+        color: #8338ec;
       }
       .link {
+        display: flex;
+        justify-content: space-between;
         text-decoration: none;
-
+        span {
+          display: none;
+        }
         img {
+          display: none;
           margin-right: 15px;
           // width: 10px;
           background-size: cover;
         }
+        .fa-solid {
+          display: block;
+          color: white;
+          font-size: 35px;
+        }
+      }
+      .fa-solid{
+        color: white;
+        display: block;
+        font-size: 35px;
       }
     }
     .lets {

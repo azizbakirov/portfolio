@@ -1,7 +1,6 @@
 .card {
   margin-top: 45px;
   font-family: "Montserrat", sans-serif;
-
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -10,13 +9,13 @@
 
   .titles {
     width: 40%;
-
     span {
-      color: black;
+      color: #1e0044;
     }
     h3 {
       margin-top: 10px;
-      color: black;
+      color: #1e0044;
+
       font-size: 60px;
       font-weight: 500;
     }
@@ -27,7 +26,7 @@
     }
     p {
       margin-top: 30%;
-      color: black;
+      color: #1e0044;
     }
 
     .lets-btn {
@@ -120,6 +119,59 @@
     width: 45%;
     img {
       border-radius: 20px;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    .info-links {
+      display: flex;
+      justify-content: space-between;
+      i {
+        color: #1e0044;
+        font-size: 25px;
+        padding: 0 10px;
+      }
+    }
+    .titles {
+      width: 100%;
+      p {
+        display: none;
+      }
+
+      .lets-btn {
+        display: none;
+      }
+    }
+    .img {
+      margin-top: 10px;
+
+      width: 100%;
+    }
+  }
+  .dark-card {
+    .info-links {
+      display: flex;
+      justify-content: space-between;
+      i {
+        color: white;
+        font-size: 25px;
+        padding: 0 10px;
+      }
+    }
+    .titles {
+      width: 100%;
+      p {
+        display: none;
+      }
+
+      .lets-btn {
+        display: none;
+      }
+    }
+    .img {
+      margin-top: 10px;
       width: 100%;
     }
   }

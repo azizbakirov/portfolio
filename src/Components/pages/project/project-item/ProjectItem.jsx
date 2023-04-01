@@ -6,12 +6,18 @@ const ProjectItem = (props) => {
     <div>
       <div className={props.dark ? "card" : "dark-card"}>
         <div className="titles">
-          <span>{props.info}</span>
-          <h3>{props.title}</h3>
-          <div className="btn">
-            <p>{props.btnName}</p>
-            <p>{props.btnName2}</p>
+          <div className="info-links">
+            <span>{props.info}</span>
+            <div className="source">
+              <a target="_blank" href={props.siteLink}>
+                <i className="fa-solid fa-link"></i>
+              </a>
+              <a target="_blank" href={props.siteLink}>
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
           </div>
+          <h3>{props.title}</h3>
           <p>{props.desc}</p>
           <div className="lets-btn">
             <a className="lets" target="_blank" href={props.siteLink}>
