@@ -28,7 +28,7 @@ function TopBtn() {
           className="animate__animated animate__fadeIn"
           onClick={scroolUp}
         >
-          <i class="fa-solid fa-arrow-up"></i>
+          <i className="fa-solid fa-arrow-up"></i>
         </button>
       )}
     </div>

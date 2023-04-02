@@ -123,15 +123,25 @@
     }
   }
 }
+.info-links{
+
+  .source{
+  display: none;
+
+  }
+}
 @media screen and (max-width: 600px) {
   .card {
     .info-links {
       display: flex;
       justify-content: space-between;
-      i {
+      .source{
+        display: block;
+        i {
         color: #1e0044;
         font-size: 25px;
         padding: 0 10px;
+      }
       }
     }
     .titles {
@@ -154,10 +164,13 @@
     .info-links {
       display: flex;
       justify-content: space-between;
-      i {
+      .source{
+        display: block;
+        i {
         color: white;
         font-size: 25px;
         padding: 0 10px;
+      }
       }
     }
     .titles {

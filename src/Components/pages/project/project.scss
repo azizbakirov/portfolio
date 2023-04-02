@@ -6,11 +6,16 @@
     gap: 10px;
     .nav {
       background-color: #1e0044;
-      padding: 15px;
+      padding: 10px;
       border-radius: 10px;
       text-decoration: none;
       font-family: "Montserrat", sans-serif;
     }
   }
   
+}
+@media screen and (max-width: 600px) {
+  .project{
+    margin-top: 20px;
+  }
 }

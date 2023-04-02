@@ -26,7 +26,7 @@ function Main() {
       </div>
       <div className="card">
         <div className="title">
-          <h1> Art direction</h1>
+          <h1> Development</h1>
         </div>
         <div className="content">
           <p>
