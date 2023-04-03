@@ -13,11 +13,13 @@ function Footer() {
         </div>
       </div>
       <div className="title">
-        <h1>Interested in working together?</h1>
+        <h1>I am interested in working with a team</h1>
       </div>
       <div className="coprghyt">
         <p>©2023 – All Rights Reserved</p>
-        <p>Available for freelance work</p>
+        <p>
+          Copyright by <span>My Web site</span>
+        </p>
       </div>
     </footer>
   );

@@ -26,16 +26,17 @@
   .title {
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding: 90px 0;
 
     h1 {
       width: 60%;
-      font-size: 80px;
+      font-size: 70px;
       font-weight: 400;
       color: #fff;
       text-align: center;
     }
   }
+
 }
 @media screen and (max-width: 600px) {
   .footer {

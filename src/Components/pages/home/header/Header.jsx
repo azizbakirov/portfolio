@@ -3,15 +3,11 @@ import "./header.scss";
 
 const Header = () => {
   return (
-    <header className="wrapper ">
+    <header>
       <div className="title-info animate__animated animate__fadeIn">
-        <span className="title">
-          I create <span>beautifuls</span> experiences
-        </span>
-        <p>
-          I work with people all over the world to create tailor-made Webflow
-          experiences
-        </p>
+        <span className="title">Hi, im</span>
+        <h3 className="my_name">Aziz Bakirov</h3>
+        <span className="text_title">Frontend developer</span>
         <p className="para"> Available for freelance work</p>
       </div>
     </header>
