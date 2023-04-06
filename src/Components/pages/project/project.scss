@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 10px;
     .nav {
+      -webkit-tap-highlight-color:transparent;
       background-color: #1e0044;
       padding: 10px;
       border-radius: 10px;
@@ -12,10 +13,9 @@
       font-family: "Montserrat", sans-serif;
     }
   }
-  
 }
 @media screen and (max-width: 600px) {
-  .project{
+  .project {
     margin-top: 20px;
   }
 }
