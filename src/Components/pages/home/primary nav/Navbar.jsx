@@ -33,10 +33,12 @@ function Navbar() {
           <NavLink className="link home" to="/" onClick={scroolUp}>
             <span>HOME</span> <img src={Arrow} alt="" />
             <i className="fa-solid fa-house"></i>
+            <div className="active-hover"></div>
           </NavLink>
           <NavLink className="link abouts" to="/about" onClick={scroolUp}>
             <span>ABOUT</span> <img src={Arrow} alt="" />
             <i className="fa-solid fa-address-card"></i>
+            <div className="active-hover"></div>
           </NavLink>
           <NavLink
             className="link projects"
@@ -45,10 +47,12 @@ function Navbar() {
           >
             <span>PROJECTS</span> <img src={Arrow} alt="" />
             <i className="fa-solid fa-briefcase"></i>
+            <div className="active-hover"></div>
           </NavLink>
           <NavLink className="link blog" to="/blog" onClick={scroolUp}>
             <span>BLOGS</span> <img src={Arrow} alt="" />
             <i className="fa-solid fa-blog"></i>
+            <div className="active-hover"></div>
           </NavLink>
         </nav>
         <Outlet />

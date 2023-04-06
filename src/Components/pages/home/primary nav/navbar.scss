@@ -83,7 +83,7 @@
     border-radius: 10px;
     justify-content: space-between;
 
-    .two-links{
+    .two-links {
       width: 20%;
       img {
         width: 100%;
@@ -126,8 +126,6 @@
     backdrop-filter: blur(7px);
     background-color: #1e0044d5;
 
-
-    
     .logo {
       display: none;
       img {
@@ -138,12 +136,21 @@
       margin-left: 0px;
       padding: 0 15px;
       margin-top: 0px;
-
       justify-content: space-between;
       gap: 0px;
-
       .active {
         color: #8338ec;
+
+        .active-hover{
+          background: linear-gradient(45deg, #8338ec7a, #fff);
+          width: 25px;
+          height: 25px;
+          position: absolute;
+          top: 30px;
+          left: 5px;
+          z-index: -100;
+          filter: blur(10px);
+        }
       }
       .link {
         display: flex;
@@ -191,7 +198,7 @@
       }
     }
   }
-  .animate__slideInDown{
-      display: block;
-    }
+  .animate__slideInDown {
+    display: block;
+  }
 }
