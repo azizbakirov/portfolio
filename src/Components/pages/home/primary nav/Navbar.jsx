@@ -18,7 +18,7 @@ function Navbar() {
           <img src={Logo} alt="" />
         </Link>
         <div className="lets">
-          <a href="">
+          <a href="tel:+998998687845">
             CALL ME <img src={Arrow} alt="icon" />
           </a>
         </div>
