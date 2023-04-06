@@ -115,20 +115,16 @@
   }
   .navbar {
     width: 90%;
-    // left: 0px;
     bottom: 10px;
     top: auto;
     padding: 20px 0;
-    border-radius: 10px 10px;
     display: block;
     backdrop-filter: blur(7px);
-    background-color: #1e0044d5;
+    background-color: #340b69d5;
+    border-radius: 15px;
 
     .logo {
       display: none;
-      img {
-        width: 80px;
-      }
     }
     .nav {
       -webkit-tap-highlight-color: transparent;
@@ -136,12 +132,7 @@
       padding: 0 15px;
       margin-top: 0px;
       justify-content: space-between;
-      gap: 0px;
-      user-select: none;
-
       .active {
-        // filter: none;
-        color: #1e0044;
         .active-hover {
           background: linear-gradient(45deg, #8338ec7a, #fff);
           width: 25px;
@@ -154,31 +145,22 @@
         }
       }
       .link {
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
         span {
           display: none;
         }
         img {
           display: none;
-          margin-right: 15px;
-          background-size: cover;
         }
         .fa-solid {
           display: block;
-          font-size: 35px;
         }
       }
       .fa-solid {
-        color: white;
-        display: block;
-        font-size: 35px;
+        font-size: 30px;
       }
     }
     .lets {
       display: none;
-      margin-top: 13px;
       a {
         border-radius: 50px;
         font-size: 13px;
@@ -187,17 +169,10 @@
         background-color: #1e0044;
         border: 1px solid #8338ec;
         text-align: center;
-        padding: 5px 10px;
-        text-decoration: none;
-        // box-shadow: 0px 0px 25px #8338ec9c;
-        transition: all 0.3s ease;
       }
       a:hover {
         box-shadow: 0px 0px 20px #8338ec;
       }
     }
-  }
-  .animate__slideInDown {
-    display: block;
   }
 }

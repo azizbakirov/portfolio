@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 40px;
+  margin: 20px 0;
   background-color: #1e0044;
   border-radius: 10px;
   padding: 25px;
@@ -15,6 +15,9 @@
 
       a {
         text-decoration: none;
+        i {
+          display: none;
+        }
       }
     }
   }
@@ -36,37 +39,33 @@
       text-align: center;
     }
   }
-
 }
 @media screen and (max-width: 600px) {
   .footer {
-
+    margin: 70px 0;
     .title-links {
-      display: flex;
-      justify-content: space-between;
-
       .links {
-        display: flex;
-        gap: 20px;
-
         a {
-          text-decoration: none;
+          span {
+            display: none;
+          }
+          i {
+            display: block;
+            font-size: 25px;
+          }
         }
       }
     }
     .coprghyt {
-      margin-top: 25px;
-      display: flex;
-      justify-content: space-between;
+      margin-top: 0px;
+      p {
+        font-size: 10px;
+      }
     }
     .title {
-      display: flex;
-      justify-content: center;
-      padding: 100px 0;
-      font-size: 20px;
-
       h1 {
         font-size: 50px;
+        width: auto;
       }
     }
   }
