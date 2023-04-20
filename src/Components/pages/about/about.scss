@@ -1,5 +1,75 @@
 .about {
-  padding: 25px;
-  margin-top: 98px;
+  font-family: "Montserrat", sans-serif;
+  padding: 25px 0;
+  margin-top: 180px;
   font-size: medium;
+  display: flex;
+  justify-content: space-between;
+
+  .info {
+    width: 50%;
+
+    .my_skills{
+      font-size: 20px;
+      padding: 50px 0;
+      .skill{
+        display: flex;
+        gap: 25px;
+        
+        i{
+          transition: all .3s;
+          font-size: 30px;
+          margin-top: 25px;
+        }
+        .fa-html5:hover{
+          color: orange;
+        }
+         .fa-css3-alt:hover{
+          color:blue;
+        }
+         .fa-sass:hover{
+          color:pink;
+        }
+         .fa-js:hover{
+          color:yellow;
+        }
+         .fa-react:hover{
+          color:rgb(58, 58, 146);
+        }
+      }
+    }
+
+    h1 {
+      font-family: "Courgette", cursive;
+      font-size: 50px;
+    }
+    p {
+      padding: 30px 0;
+    }
+    .location {
+      padding: 50px 0;
+      display: flex;
+
+      span {
+        margin-left: 15px;
+        width: 70%;
+        font-size: 15px;
+      }
+      .location_icon {
+        i {
+          font-size: 35px;
+        }
+      }
+    }
+    .social_media a {
+      font-size: 35px;
+      color: white;
+      margin-left: 20px;
+    }
+  }
+  .info_img {
+    img {
+      width: 450px;
+    }
+  }
 }
