@@ -1,6 +1,7 @@
 import React from 'react'
 import "./js.scss"
 import ProjectItem from '../project-item/ProjectItem';
+import Design from '../../home/projects-landing/img/1.png'
 
 function JavaScript() {
   return (
@@ -14,7 +15,15 @@ function JavaScript() {
         title="Javascript"
         desc="Lorem ipsum dolor sit amet"
         siteLink="http://youtube.com"
-        // img={Design}
+        img={Design}
+      />
+      <ProjectItem
+        dark={false}
+        info="Web design"
+        title="Javascript"
+        desc="Lorem ipsum dolor sit amet"
+        siteLink="http://youtube.com"
+        img={Design}
       />
     </div>
   );

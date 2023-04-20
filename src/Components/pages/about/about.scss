@@ -4,78 +4,116 @@
   margin-top: 105px;
   font-size: medium;
 
-  .about_page{
+  .about_page {
     display: flex;
     justify-content: space-between;
     background-color: #1e0044;
     border-radius: 15px;
     padding: 25px;
     .info {
-    width: 50%;
+      width: 50%;
 
-    .my_skills{
-      font-size: 20px;
-      margin-top: 80px;
-      // padding: 70px 0;
-      .skill{
+      .my_skills {
+        font-size: 20px;
+        margin-top: 80px;
+        // padding: 70px 0;
+        .skill {
+          display: flex;
+          gap: 25px;
+
+          i {
+            transition: all 0.3s;
+            font-size: 30px;
+            margin-top: 25px;
+          }
+          .fa-html5:hover {
+            color: #d84b20;
+          }
+          .fa-css3-alt:hover {
+            color: #2965f1;
+          }
+          .fa-sass:hover {
+            color: #cc6699;
+          }
+          .fa-js:hover {
+            color: #f0db4f;
+          }
+          .fa-react:hover {
+            color: #61dafb;
+          }
+        }
+      }
+
+      h1 {
+        font-family: "Courgette", cursive;
+        font-size: 50px;
+      }
+      p {
+        padding: 30px 0;
+      }
+      .location {
+        margin-top: 110px;
         display: flex;
-        gap: 25px;
-        
-        i{
-          transition: all .3s;
-          font-size: 30px;
-          margin-top: 25px;
+
+        span {
+          margin-left: 15px;
+          width: 50%;
+          font-size: 12px;
         }
-        .fa-html5:hover{
-          color: #d84b20;
-        }
-         .fa-css3-alt:hover{
-          color:#2965f1;
-        }
-         .fa-sass:hover{
-          color:#cc6699;
-        }
-         .fa-js:hover{
-          color:#f0db4f;
-        }
-         .fa-react:hover{
-          color: #61dafb;
+        .location_icon {
+          i {
+            font-size: 30px;
+          }
         }
       }
+      .social_media a {
+        font-size: 35px;
+        color: white;
+        margin-left: 20px;
+      }
     }
+    .info_img {
+      img {
+        width: 450px;
+      }
+    }
+  }
+}
 
-    h1 {
-      font-family: "Courgette", cursive;
-      font-size: 50px;
-    }
-    p {
-      padding: 30px 0;
-    }
-    .location {
-      margin-top: 110px;
+@media screen and (max-width: 600px) {
+  .about {
+    margin-top: 10px;
+
+    .about_page {
       display: flex;
+      padding: 25px;
+      .info {
+        width: 100%;
 
-      span {
-        margin-left: 15px;
-        width: 50%;
-        font-size: 12px;
+        .my_skills {
+          font-size: 20px;
+          margin-top: 15px;
+          // padding: 70px 0;
+          .skill {
+            display: flex;
+            justify-content: space-between;
+
+            i {
+              font-size: 35px;
+            }
+          }
+        }
+
+        .location {
+        display: none;
+        }
       }
-      .location_icon {
-        i {
-          font-size: 30px;
+      .info_img {
+        margin-top: 35px;
+        img{
+          width: 100%;
         }
       }
     }
-    .social_media a {
-      font-size: 35px;
-      color: white;
-      margin-left: 20px;
-    }
-  }
-  .info_img {
-    img {
-      width: 450px;
-    }
-  }
   }
 }

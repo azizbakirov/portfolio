@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from '../project-item/ProjectItem'
-
+import Designs from "../../home/projects-landing/img/1.png";
 import "./design.scss"
 
 function Design() {
@@ -15,6 +15,7 @@ function Design() {
         title="Design"
         desc="Lorem ipsum dolor sit amet"
         siteLink="http://youtube.com"
+        img={Designs}
       />
       <ProjectItem
         dark={true}
@@ -22,7 +23,7 @@ function Design() {
         title="Design"
         desc="Lorem ipsum dolor sit amet"
         siteLink="http://youtube.com"
-        // img={Design}
+        img={Designs}
       />
     </div>
   );
