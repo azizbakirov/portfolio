@@ -1,17 +1,22 @@
 .about {
   font-family: "Montserrat", sans-serif;
   padding: 25px 0;
-  margin-top: 180px;
+  margin-top: 105px;
   font-size: medium;
-  display: flex;
-  justify-content: space-between;
 
-  .info {
+  .about_page{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e0044;
+    border-radius: 15px;
+    padding: 25px;
+    .info {
     width: 50%;
 
     .my_skills{
       font-size: 20px;
-      padding: 50px 0;
+      margin-top: 80px;
+      // padding: 70px 0;
       .skill{
         display: flex;
         gap: 25px;
@@ -22,19 +27,19 @@
           margin-top: 25px;
         }
         .fa-html5:hover{
-          color: orange;
+          color: #d84b20;
         }
          .fa-css3-alt:hover{
-          color:blue;
+          color:#2965f1;
         }
          .fa-sass:hover{
-          color:pink;
+          color:#cc6699;
         }
          .fa-js:hover{
-          color:yellow;
+          color:#f0db4f;
         }
          .fa-react:hover{
-          color:rgb(58, 58, 146);
+          color: #61dafb;
         }
       }
     }
@@ -47,17 +52,17 @@
       padding: 30px 0;
     }
     .location {
-      padding: 50px 0;
+      margin-top: 110px;
       display: flex;
 
       span {
         margin-left: 15px;
-        width: 70%;
-        font-size: 15px;
+        width: 50%;
+        font-size: 12px;
       }
       .location_icon {
         i {
-          font-size: 35px;
+          font-size: 30px;
         }
       }
     }
@@ -71,5 +76,6 @@
     img {
       width: 450px;
     }
+  }
   }
 }
