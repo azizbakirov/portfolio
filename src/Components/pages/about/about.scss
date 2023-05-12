@@ -1,119 +1,97 @@
 .about {
-  font-family: "Montserrat", sans-serif;
-  padding: 25px 0;
   margin-top: 105px;
+  padding: 25px 0;
   font-size: medium;
+  font-family: "Montserrat", sans-serif;
 
-  .about_page {
+  .about_pages {
     display: flex;
+    padding: 25px;
     justify-content: space-between;
     background-color: #1e0044;
-    border-radius: 15px;
-    padding: 25px;
-    .info {
+    border-radius: 10px;
+    .my_info {
       width: 50%;
-
-      .my_skills {
-        font-size: 20px;
-        margin-top: 80px;
-        // padding: 70px 0;
-        .skill {
-          display: flex;
-          gap: 25px;
-
-          i {
-            transition: all 0.3s;
-            font-size: 30px;
-            margin-top: 25px;
-          }
-          .fa-html5:hover {
-            color: #d84b20;
-          }
-          .fa-css3-alt:hover {
-            color: #2965f1;
-          }
-          .fa-sass:hover {
-            color: #cc6699;
-          }
-          .fa-js:hover {
-            color: #f0db4f;
-          }
-          .fa-react:hover {
-            color: #61dafb;
-          }
-        }
-      }
-
-      h1 {
+      .title {
         font-family: "Courgette", cursive;
-        font-size: 50px;
+        font-size: 55px;
       }
-      p {
-        padding: 30px 0;
+      .desc {
+        margin-top: 10px;
+        font-size: 18px;
       }
-      .location {
-        margin-top: 110px;
-        display: flex;
-
-        span {
-          margin-left: 15px;
-          width: 50%;
-          font-size: 12px;
+      .skils{
+        position: relative;
+        top: 50px;
+      }
+      .link {
+        margin-top: 30px;
+        p {
+          font-size: 35px;
+          font-weight: 600;
         }
-        .location_icon {
+        .icon_link {
+          display: flex;
+          gap: 15px;
+          margin-top: 10px;
           i {
-            font-size: 30px;
+            font-size: 35px;
           }
         }
       }
-      .social_media a {
-        font-size: 35px;
-        color: white;
-        margin-left: 20px;
+      .social_media {
+        margin-top: 150px;
+        .social {
+          font-size: 1px;
+
+          i {
+            font-size: 20px;
+          }
+        }
       }
     }
-    .info_img {
-      img {
-        width: 450px;
+    .my_certificate {
+      width: 40%;
+      .certificate {
+        text-align: center;
+        img {
+          border-radius: 10px;
+          width: 100%;
+        }
+        .cer_title {
+          margin: 10px 0;
+        }
+        .found {
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+          img {
+            width: 20%;
+          }
+        }
       }
     }
   }
 }
 
 @media screen and (max-width: 600px) {
-  .about {
-    margin-top: 10px;
-
-    .about_page {
-      display: flex;
-      padding: 25px;
-      .info {
+  .about{
+    margin-top: 0;
+    .about_pages{
+      display: block;
+      .my_info{
         width: 100%;
-
-        .my_skills {
-          font-size: 20px;
-          margin-top: 15px;
-          // padding: 70px 0;
-          .skill {
-            display: flex;
-            justify-content: space-between;
-
-            i {
-              font-size: 35px;
-            }
-          }
-        }
-
-        .location {
-        display: none;
+        
+        .link{
+          margin-top: 0px;
         }
       }
-      .info_img {
+      .social_media{
         display: none;
-        margin-top: 35px;
-        img{
-          width: 100%;
-        }
+      }
+      .my_certificate{
+        width: 100%;
+        margin-top: 100px;
       }
     }
   }
