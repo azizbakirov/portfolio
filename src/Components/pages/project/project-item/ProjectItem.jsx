@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
               <a target="_blank" href={props.siteLink}>
                 <i className="fa-solid fa-link"></i>
               </a>
-              <a target="_blank" href={props.siteLink}>
+              <a target="_blank" href={props.source}>
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -23,7 +23,7 @@ const ProjectItem = (props) => {
             <a className="lets" target="_blank" href={props.siteLink}>
               View Site
             </a>
-            <a className="lets" target="_blank" href={props.siteLink}>
+            <a className="lets" target="_blank" href={props.source}>
               Source Code
             </a>
           </div>

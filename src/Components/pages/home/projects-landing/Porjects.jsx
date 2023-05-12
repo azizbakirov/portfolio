@@ -1,6 +1,8 @@
 import React from "react";
 import "./projects.scss";
 import Design from "./img/1.png";
+import Weather from "./img/weather.jpg";
+import Todo from "./img/todos.jpg";
 import ProjectItem from "../../project/project-item/ProjectItem";
 // import { createLogger } from "vite";
 // import Design from "./img/1.jpg"
@@ -10,40 +12,23 @@ function Porjects() {
     <div className="cards">
       <ProjectItem
         dark={true}
-        info="Web design"
-        title="Kobra"
-        btnNameLink="google.com"
-        btnName="google.com"
-        btnNameLink2="google.com"
-        btnName2="google.uz"
-        desc="Lorem ipsum dolor sit amet"
-        siteLink="http://youtube.com"
-        img={Design}
+        info="JavaScript"
+        title="Weather UZ"
+        desc="A weather website made using an API from visualcrossing"
+        siteLink="https://weatherruz.netlify.app/"
+        source="https://github.com/azizbakirov/weather-javascsript"
+        img={Weather}
       />
       <ProjectItem
         dark={false}
-        info="Web design"
-        title="Kobra"
-        btnNameLink="google.com"
-        btnName="google.com"
-        btnNameLink2="google.com"
-        btnName2="google.uz"
-        desc="Lorem ipsum dolor sit amet"
-        siteLink="http://youtube.com"
-        img={Design}
+        info="JavaScript"
+        title="Todo UZ"
+        desc="Todo list website"
+        siteLink="https://todouzweb.netlify.app/"
+        source="https://github.com/azizbakirov/todoweb"
+        img={Todo}
       />
-      <ProjectItem
-        dark={true}
-        info="Web design"
-        title="Kobra"
-        btnNameLink="google.com"
-        btnName="google.com"
-        btnNameLink2="google.com"
-        btnName2="google.uz"
-        desc="Lorem ipsum dolor sit amet"
-        siteLink="http://youtube.com"
-        img={Design}
-      />
+     
     </div>
   );
 }

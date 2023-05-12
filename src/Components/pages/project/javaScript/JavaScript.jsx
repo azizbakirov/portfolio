@@ -1,7 +1,8 @@
 import React from 'react'
 import "./js.scss"
 import ProjectItem from '../project-item/ProjectItem';
-import Design from '../../home/projects-landing/img/1.png'
+import Weather from '../../home/projects-landing/img/weather.jpg'
+import Todo from "../../home/projects-landing/img/todos.jpg";
 
 function JavaScript() {
   return (
@@ -11,19 +12,21 @@ function JavaScript() {
       </div>
       <ProjectItem
         dark={true}
-        info="Web design"
-        title="Javascript"
-        desc="Lorem ipsum dolor sit amet"
-        siteLink="http://youtube.com"
-        img={Design}
+        info="JavaScript"
+        title="Weather UZ"
+        desc="A weather website made using an API from visualcrossing"
+        siteLink="https://weatherruz.netlify.app/"
+        source="https://github.com/azizbakirov/weather-javascsript"
+        img={Weather}
       />
       <ProjectItem
         dark={false}
-        info="Web design"
-        title="Javascript"
-        desc="Lorem ipsum dolor sit amet"
-        siteLink="http://youtube.com"
-        img={Design}
+        info="JavaScript"
+        title="Todo UZ"
+        desc="Todo list website"
+        siteLink="https://todouzweb.netlify.app/"
+        source="https://github.com/azizbakirov/todoweb"
+        img={Todo}
       />
     </div>
   );
