@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.scss";
-import myImg from "./myPhotos/man.png";
 import certificate from "./sertificate/certificate.png";
 import Footer from "../home/footer/Footer";
 
