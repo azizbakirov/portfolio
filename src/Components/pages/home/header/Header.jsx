@@ -8,7 +8,7 @@ const Header = () => {
         <span className="title">Hi, I am</span>
         <h3 className="my_name">Aziz Bakirov</h3>
         <span className="text_title">Frontend developer</span>
-        <p className="para"> Available for freelance work</p>
+        <p className="para"> </p>
       </div>
     </header>
   );

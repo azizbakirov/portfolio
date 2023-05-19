@@ -6,7 +6,7 @@ header {
   border-radius: 10px;
 
   .title-info {
-    margin-top: 80px;
+    padding: 90px 0;
     .title {
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
@@ -29,11 +29,7 @@ header {
       margin-top: 10px;
       // width: 500px;
     }
-    .para {
-      margin-top: 80px;
-      font-family: "Montserrat", sans-serif;
-      font-size: 13px;
-    }
+    
   }
 }
 @media screen and (max-width: 600px) {
