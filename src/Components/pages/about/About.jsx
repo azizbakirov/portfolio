@@ -48,7 +48,7 @@ function About() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
               <a target="_blank" href="">
-                <i class="fa-brands fa-telegram"></i>
+                <i className="fa-brands fa-telegram"></i>
               </a>
               <a target="_blank" href=""></a>
             </div>

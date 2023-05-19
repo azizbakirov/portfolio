@@ -25,11 +25,13 @@ function Footer() {
       <div className="coprghyt">
         <p>©2023 – All Rights Reserved</p>
         <p>
-          Copyright by <span>My Web site</span>
+          Copyright by{" "}
+          <span>
+            <a href="https://t.me/azizbakirov" target="_blank">Aziz Bakirov</a>
+          </span>
         </p>
       </div>
     </footer>
-    
   );
 }
 

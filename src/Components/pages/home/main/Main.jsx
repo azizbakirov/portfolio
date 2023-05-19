@@ -6,15 +6,13 @@ function Main() {
     <div className="main">
       <div className="card">
         <div className="title">
-          <h1> Development</h1>
+          <h1>Eric S. Raymond</h1>
         </div>
         <div className="content">
           <p>
-            I specialize in developing websites using Webflow, a powerful
-            platform that allows for easy customization and responsive design. I
-            have experience building websites for a variety of industries, from
-            small businesses to large corporations. My focus is always on
-            creating functional and smooth websites that generate traffic.
+            “Computer science education cannot make anybody an expert programmer
+            any more than studying brushes and pigment can make somebody an
+            expert painter.”
           </p>
         </div>
         <div className="button">
@@ -26,15 +24,13 @@ function Main() {
       </div>
       <div className="card">
         <div className="title">
-          <h1> Development</h1>
+          <h1>Bill Gates</h1>
         </div>
         <div className="content">
           <p>
-            I specialize in developing websites using Webflow, a powerful
-            platform that allows for easy customization and responsive design. I
-            have experience building websites for a variety of industries, from
-            small businesses to large corporations. My focus is always on
-            creating functional and smooth websites that generate traffic.
+            “A great lathe operator commands several times the wage of an
+            average lathe operator, but a great writer of software code is worth
+            10,000 times the price of an average software writer.”
           </p>
         </div>
         <div className="button">
