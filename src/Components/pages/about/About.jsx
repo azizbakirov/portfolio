@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import "./about.scss";
@@ -81,7 +80,7 @@ class About extends Component {
             </div>
           </div>
           <div className="my_certificate">
-            <ImageGallery items={images} showNav={false} originalTitle={true} />
+            <ImageGallery items={images} showNav={false} originalTitle={true} className="carusel" />
           </div>
         </div>
         <Footer />
