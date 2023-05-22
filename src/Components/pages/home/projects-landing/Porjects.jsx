@@ -4,8 +4,6 @@ import Design from "./img/1.png";
 import Weather from "./img/weather.jpg";
 import Todo from "./img/todos.jpg";
 import ProjectItem from "../../project/project-item/ProjectItem";
-// import { createLogger } from "vite";
-// import Design from "./img/1.jpg"
 
 function Porjects() {
   return (

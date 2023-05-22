@@ -8,21 +8,20 @@
     background: linear-gradient(45deg, #b923ff 10%, #8338ec 80%);
     padding: 25px;
     border-radius: 10px;
-
     font-family: "Montserrat", sans-serif;
     h1 {
       font-weight: 400;
     }
     .content {
-      margin-top: 80px;
+      margin-top: 40px;
     }
     .button {
       display: flex;
       gap: 10px;
       margin-top: 20px;
-      a {
-  color: white;
 
+      a {
+        color: white;
         border: 1px solid white;
         border-radius: 20px;
         padding: 10px;
