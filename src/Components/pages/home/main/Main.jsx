@@ -16,10 +16,15 @@ function Main() {
           </p>
         </div>
         <div className="button">
-          <a href="https://www.linkedin.com/in/joshua-murphy-7a20b2108/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/aziz-bakirov-742018243/"
+          >
             LinkedIn
           </a>
-          <a href="https://github.com/joshua-murphy">GitHub</a>
+          <a target="_blank" href="https://github.com/azizbakirov">
+            GitHub
+          </a>
         </div>
       </div>
       <div className="card">
@@ -34,10 +39,15 @@ function Main() {
           </p>
         </div>
         <div className="button">
-          <a href="https://www.linkedin.com/in/joshua-murphy-7a20b2108/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/aziz-bakirov-742018243/"
+          >
             LinkedIn
           </a>
-          <a href="https://github.com/joshua-murphy">GitHub</a>
+          <a target="_blank" href="https://github.com/azizbakirov">
+            GitHub
+          </a>
         </div>
       </div>
     </div>
