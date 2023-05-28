@@ -1,53 +1,63 @@
 .error_page {
-  display: flex;
-  justify-content: center;
-  margin-top: 20%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  // margin-top: 20%;
   text-align: center;
+  width: 100%;
 
   .titles {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
-    h1{
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    h1 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
       font-size: 80px;
       color: transparent;
-        -webkit-text-stroke: 1px #8338ec;
-        animation: text 2s infinite;
+      -webkit-text-stroke: 1px #8338ec;
+      animation: text 2s infinite;
     }
     @keyframes text {
-        0%{
-          -webkit-text-stroke: 1px #8338ec;
-        }
-        50%{
-          -webkit-text-stroke: 1px transparent;
-        }
-        100%{
+      0% {
         -webkit-text-stroke: 1px #8338ec;
-
-        }
+      }
+      50% {
+        -webkit-text-stroke: 1px transparent;
+      }
+      100% {
+        -webkit-text-stroke: 1px #8338ec;
+      }
     }
-    
 
-    p{
+    p {
       margin: 25px 0;
     }
-   .lets {
-    margin-top: 13px;
-    .error_home {
-      color: #8338ec;
-      border-radius: 50px;
-      font-size: 13px;
-      font-weight: 300;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      padding: 10px 50px;
-      text-decoration: none;
-      // box-shadow: 0px 0px 25px #8338ec9c;
-      transition: all 0.3s ease;
-    }
-    a:hover {
-      box-shadow: 0px 0px 20px #8338ec;
+    .lets {
+      margin-top: 13px;
+      .error_home {
+        color: #8338ec;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 300;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        padding: 10px 50px;
+        text-decoration: none;
+        // box-shadow: 0px 0px 25px #8338ec9c;
+        transition: all 0.3s ease;
+      }
+      a:hover {
+        box-shadow: 0px 0px 20px #8338ec;
+      }
     }
   }
+}
+@media screen and (max-width: 600px) {
+  .error_page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
