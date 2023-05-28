@@ -8,7 +8,7 @@ import najotTalim from "./sertificate/najot.jpg";
 import najotTalimMin from "./sertificate/najot-min.jpg";
 import pdpFaundition from "./sertificate/faundition-min.jpg";
 import pdpFaunditionMin from "./sertificate/faundition.jpg";
-import FooterMin from "../home/footer/Footer";
+import Footer from "../home/footer/Footer";
 
 
 const images = [

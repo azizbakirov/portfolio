@@ -11,6 +11,7 @@ import ReactJs from "../Components/pages/project/reactJs/ReactJs";
 import Mini from "../Components/pages/project/miniProject/Mini";
 import Design from "../Components/pages/project/design/Design";
 import Blog from "../Components/pages/blog/Blog";
+import ErorPage from "./404pages/ErorPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="mini" element={<Mini />} />
           </Route>
           <Route path="blog" element={<Blog />} />
+          <Route path="*" element={<ErorPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
