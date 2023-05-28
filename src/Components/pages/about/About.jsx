@@ -2,25 +2,27 @@ import React, { Component } from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import "./about.scss";
-import certificate from "./sertificate/certificate.png";
+import pdp from "./sertificate/pdp.jpg";
+import najotTalim from "./sertificate/najot.jpg";
+import pdpFaundition from "./sertificate/faundition.jpg";
 import Footer from "../home/footer/Footer";
 
 
 const images = [
   {
-    original: certificate,
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
+    original: pdp,
+    thumbnail: pdp,
     originalTitle: "Pdp Academy",
   },
   {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
+    original: pdpFaundition,
+    thumbnail: pdpFaundition,
     originalTitle: "Pdp Academy",
   },
   {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-    originalTitle: "Pdp Academy",
+    original: najotTalim,
+    thumbnail: najotTalim,
+    originalTitle: "Najot Ta'lim",
   },
 ];
 
