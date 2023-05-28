@@ -18,6 +18,10 @@
       -webkit-text-stroke: 1px #8338ec;
       animation: text 2s infinite;
     }
+    p{
+      font-family: 'Courier New', Courier, monospace;
+      color: #8338ec;
+    }
     @keyframes text {
       0% {
         -webkit-text-stroke: 1px #8338ec;

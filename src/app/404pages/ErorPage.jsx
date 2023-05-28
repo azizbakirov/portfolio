@@ -8,6 +8,7 @@ function ErorPage() {
     <div className="error_page">
       <div className="titles">
         <h1>404</h1>
+        <p>Page Not found</p>
         <div className="lets">
           <Link className="error_home" to="/">
             Home
