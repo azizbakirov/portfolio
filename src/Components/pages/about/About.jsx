@@ -3,25 +3,28 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import "./about.scss";
 import pdp from "./sertificate/pdp.jpg";
+import pdpMin from "./sertificate/pdp-min.jpg";
 import najotTalim from "./sertificate/najot.jpg";
-import pdpFaundition from "./sertificate/faundition.jpg";
-import Footer from "../home/footer/Footer";
+import najotTalimMin from "./sertificate/najot-min.jpg";
+import pdpFaundition from "./sertificate/faundition-min.jpg";
+import pdpFaunditionMin from "./sertificate/faundition.jpg";
+import FooterMin from "../home/footer/Footer";
 
 
 const images = [
   {
     original: pdp,
-    thumbnail: pdp,
+    thumbnail: pdpMin,
     originalTitle: "Pdp Academy",
   },
   {
     original: pdpFaundition,
-    thumbnail: pdpFaundition,
+    thumbnail: pdpFaunditionMin,
     originalTitle: "Pdp Academy",
   },
   {
     original: najotTalim,
-    thumbnail: najotTalim,
+    thumbnail: najotTalimMin,
     originalTitle: "Najot Ta'lim",
   },
 ];
